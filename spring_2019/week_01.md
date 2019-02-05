@@ -2,23 +2,16 @@
 
 > In this section, you can write about what you accomplished in the previous week.
 
-> This past week, I was able to implement the the dialog box for creating a new user in the front end. I \
-> learned how to send requests in JavaScript to the backend API.
+> This past week I ordered parts, and developed a plan for physically turning the knob on the heater. Additionally I focused on how we will handle power distribution to the motor and Raspberry Pi. It is important to separate the power distribution.
 
 ## This Week's Plan
 
 > In this section, you can write about what you have planned for next week.
 
-> After my accomplishments from last week, I plan to add accessibility features to the user creation dialog box. \
-> I also plan on attending the git workshop this week.
+> This week I plan on driving the motors from the Raspberry Pi. This will require using software PWM to specificy direction and speed for the motors. 
 
 ## Anything Blocking?
 
 > In this section, you can write about any blockers that you are having trouble in the project.
 
-> I don't know how to test the accessibility features I am going to be implementing this week, so i am going to \
-> ask my mentors if they have any suggestions.
-
-## Notes
-
-> This is an optional section for any sort of information that does not fall under any of the other categories.
+> Currently blocked on parts, additionally, the distribution of Nerves we are using does not support the pi's hardware PWM driver.
