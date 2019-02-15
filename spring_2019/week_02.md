@@ -1,11 +1,11 @@
 ## Last Week's Accomplishments
 
-This past week I ordered parts, and developed a plan for physically turning the knob on the heater. Additionally I focused on how we will handle power distribution to the motor and Raspberry Pi. It is important to separate the power distribution.
+Last week I was able to drive the motors from the Raspberry Pi using software PWM. This is usedful because it means we will be able to run a Nerves application that can drive the motors.
 
 ## This Week's Plan
 
-This week I plan on driving the motors from the Raspberry Pi. This will require using software PWM to specificy direction and speed for the motors. 
+This week I intend to figure out how to fixate the stepper to the knob. This will involve some form of either 3d printed or lazer cut gear as well as a mount to attach the motor to the heater.
 
 ## Anything Blocking?
 
-Currently blocked on parts, additionally, the distribution of Nerves we are using does not support the pi's hardware PWM driver.
+Currently not blocked, other than figuring out what specifications to design the parts to in order to attach the motor to the heater.
